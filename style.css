@@ -9,7 +9,7 @@ height: 50px;
 } 
 .header{
     background-color: #1F2937;
-    font-family: hero, Arial, sans-serif;
+    font-family: Roboto, Arial, sans-serif;
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
@@ -17,6 +17,7 @@ height: 50px;
     align-items: center;
     justify-content: space-around;
 }
+
 .header-logo{
     font-size: 24px; 
     font-weight: extra-bold;
@@ -26,4 +27,16 @@ height: 50px;
 .links{
     display: flex;
     gap: 15px;
+}
+
+.top-row{
+    background-color: #1F2937;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
 }
