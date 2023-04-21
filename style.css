@@ -62,5 +62,18 @@ height: 50px;
     align-self: center;
     padding: 100px;
     padding-top: 60px;
+    margin-right: 100px;
+    background-color: grey;
     min-width: max-content;
+    
+}
+
+.first-button{
+    background-color: #3882F6;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 18px; 
+    font-weight: bold;
+    color: #F9FAF8;
 }
