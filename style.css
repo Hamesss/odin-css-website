@@ -106,8 +106,8 @@ height: 50px;
 }
 
 .white-space{
-    width:150px;
-    height:150px;
+    width:160px;
+    height:160px;
     border: solid;
     border-color: #3882F6;
     border-radius: 10px;
@@ -115,4 +115,7 @@ height: 50px;
 
 .subtext{
     margin-top: -10px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    color: #1F2937;
 }
