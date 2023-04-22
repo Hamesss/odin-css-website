@@ -37,7 +37,6 @@ height: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
 }
 
 .hero{
@@ -46,7 +45,7 @@ height: 50px;
     color: #F9FAF8;
 }
 .left-side{
-    flex: 1;
+    flex: 1; /*maybe change to 0 later*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,12 +60,14 @@ height: 50px;
     justify-content: center;
     align-self: center;
     padding: 100px;
-    padding-top: 60px;
+    padding-top: 80px;
     margin-right: 100px;
     background-color: grey;
     min-width: max-content;
+    text-align: center;
     
 }
+
 
 .first-button{
     background-color: #3882F6;
@@ -76,4 +77,30 @@ height: 50px;
     font-size: 18px; 
     font-weight: bold;
     color: #F9FAF8;
+}
+
+
+.random-info-header{
+    text-align: center;
+}
+
+.random-information{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.random-information-element{
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.white-space{
+    width:150px;
+    height:150px;
+    border: solid;
+    border-color: #3882F6;
+    border-radius: 10px;
 }
