@@ -7,7 +7,7 @@ width: 50px;
 height: 50px;
 
 } 
-.header{
+.header{ 
     background-color: #1F2937;
     font-family: Roboto, Arial, sans-serif;
     font-size: 18px;
@@ -121,7 +121,7 @@ height: 50px;
 }
 .quote-container{
     background-color: #E5E7EB;
-    height: 300px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,8 +131,9 @@ height: 50px;
     font-size: 36px;
     font-family: Roboto, Arial, sans-serif; 
     font-weight: lighter;
-    flex: auto;
-    max-width:50%;    
+    flex: 0;
+    width: 800px;
+    
     
 }
 
