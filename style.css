@@ -119,3 +119,18 @@ height: 50px;
     font-size: 18px;
     color: #1F2937;
 }
+
+.quote{
+    max-width:50%;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ 
+
+}
+.thor{
+    text-align: end;
+    
+
+}
