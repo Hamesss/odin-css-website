@@ -119,18 +119,26 @@ height: 50px;
     font-size: 18px;
     color: #1F2937;
 }
-
-.quote{
-    max-width:50%;
-    margin-left: 300px;
+.quote-container{
+    background-color: #E5E7EB;
+    height: 300px;
     display: flex;
     flex-direction: column;
+    align-items: center;
     justify-content: center;
- 
-
 }
-.thor{
-    text-align: end;
+.quote{
+    font-size: 36px;
+    font-family: Roboto, Arial, sans-serif; 
+    font-weight: lighter;
+    flex: auto;
+    max-width:50%;    
     
+}
 
+.thor{
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 20px;
+    align-self: end;
 }
